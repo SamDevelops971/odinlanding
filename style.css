@@ -70,7 +70,30 @@ body {
 .middle {
   box-sizing: border-box;
   background-color: white;
-  margin: 0;
-  padding: 0;
-  height: 800px;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+  }
+
+  .quote {
+    background-color: aliceblue;
+  }
+
+  .images {
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: center;
+    align-self: center;
+
+    img {
+      height: 120px;
+      width: auto;
+      margin: 12px;
+      border: 6px solid lightgreen;
+    }
+  }
 }
